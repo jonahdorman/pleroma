@@ -1,0 +1,193 @@
+@import '../../_variables.scss';
+
+.notifications {
+  // a bit of a hack to allow scrolling below notifications
+  padding-bottom: 15em;
+
+  .loadmore-error {
+    color: $fallback--text;
+    color: var(--text, $fallback--text);
+  }
+
+  .notification {
+    position: relative;
+
+    .notification-overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      pointer-events: none;
+    }
+
+    &.unseen {
+      .notification-overlay {
+        background-image: linear-gradient(135deg, var(--badgeNotification, $fallback--cRed) 4px, transparent 10px)
+      }
+    }
+  }
+}
+
+.notification {
+  box-sizing: border-box;
+  display: flex;
+  border-bottom: 1px solid;
+  border-color: $fallback--border;
+  border-color: var(--border, $fallback--border);
+
+  .avatar-compact {
+    width: 32px;
+    height: 32px;
+    box-shadow: var(--avatarStatusShadow);
+    border-radius: $fallback--avatarAltRadius;
+    border-radius: var(--avatarAltRadius, $fallback--avatarAltRadius);
+    overflow: hidden;
+    line-height: 0;
+
+    &.better-shadow {
+      box-shadow: var(--avatarStatusShadowInset);
+      filter: var(--avatarStatusShadowFilter)
+    }
+
+    &.animated::before {
+      display: none;
+    }
+  }
+
+  &:hover .animated.avatar-compact {
+    canvas {
+      display: none;
+    }
+    img {
+      visibility: visible;
+    }
+  }
+
+  .notification-usercard {
+    margin: 0;
+  }
+
+  .non-mention {
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+    padding: 0.6em;
+    min-width: 0;
+    .avatar-container {
+      width: 32px;
+      height: 32px;
+    }
+    .status-el {
+      .status {
+        padding: 0.25em 0;
+        color: $fallback--faint;
+        color: var(--faint, $fallback--faint);
+        a {
+          color: var(--faintLink);
+        }
+      }
+      padding: 0;
+      .media-body {
+        margin: 0;
+      }
+    }
+  }
+
+  .follow-text {
+    padding: 0.5em 0;
+  }
+
+  .status-el {
+    flex: 1;
+  }
+
+  time {
+    white-space: nowrap;
+  }
+
+  .notification-right {
+    flex: 1;
+    padding-left: 0.8em;
+    min-width: 0;
+  }
+
+  .notification-details {
+    min-width: 0px;
+    word-wrap: break-word;
+    line-height:18px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    flex: 1 1 0;
+    display: flex;
+    flex-wrap: nowrap;
+
+    .name-and-action {
+      flex: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .username {
+      font-weight: bolder;
+      max-width: 100%;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+
+      img {
+        width: 14px;
+        height: 14px;
+        vertical-align: middle;
+        object-fit: contain
+      }
+    }
+    .timeago {
+      float: right;
+      font-size: 12px;
+    }
+
+    .icon-retweet.lit {
+      color: $fallback--cGreen;
+      color: var(--cGreen, $fallback--cGreen);
+    }
+
+    .icon-user-plus.lit {
+      color: $fallback--cBlue;
+      color: var(--cBlue, $fallback--cBlue);
+    }
+
+    .icon-reply.lit {
+      color: $fallback--cBlue;
+      color: var(--cBlue, $fallback--cBlue);
+    }
+
+    .icon-star.lit {
+      color: orange;
+      color: $fallback--cOrange;
+      color: var(--cOrange, $fallback--cOrange);
+    }
+
+    .status-content {
+      margin: 0;
+      max-height: 300px;
+    }
+
+    h1 {
+      word-break: break-all;
+      margin: 0 0 0.3em;
+      padding: 0;
+      font-size: 1em;
+      line-height:20px;
+      small {
+        font-weight: lighter;
+      }
+    }
+
+    p {
+      margin: 0;
+      margin-top: 0;
+      margin-bottom: 0.3em;
+    }
+  }
+}

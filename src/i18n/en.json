@@ -1,0 +1,379 @@
+{
+  "chat": {
+    "title": "Chat"
+  },
+  "features_panel": {
+    "chat": "Chat",
+    "gopher": "Gopher",
+    "media_proxy": "Media proxy",
+    "scope_options": "Scope options",
+    "text_limit": "Text limit",
+    "title": "Features",
+    "who_to_follow": "Who to follow"
+  },
+  "finder": {
+    "error_fetching_user": "Error fetching user",
+    "find_user": "Find user"
+  },
+  "general": {
+    "apply": "Apply",
+    "submit": "Submit"
+  },
+  "login": {
+    "login": "Log in",
+    "description": "Log in with OAuth",
+    "logout": "Log out",
+    "password": "Password",
+    "placeholder": "e.g. lain",
+    "register": "Register",
+    "username": "Username"
+  },
+  "nav": {
+    "about": "About",
+    "back": "Back",
+    "chat": "Local Chat",
+    "friend_requests": "Follow Requests",
+    "mentions": "Mentions",
+    "dms": "Direct Messages",
+    "public_tl": "Public Timeline",
+    "timeline": "Timeline",
+    "twkn": "The Whole Known Network",
+    "user_search": "User Search",
+    "who_to_follow": "Who to follow",
+    "preferences": "Preferences"
+  },
+  "notifications": {
+    "broken_favorite": "Unknown status, searching for it...",
+    "favorited_you": "favorited your status",
+    "followed_you": "followed you",
+    "load_older": "Load older notifications",
+    "notifications": "Notifications",
+    "read": "Read!",
+    "repeated_you": "repeated your status",
+    "no_more_notifications": "No more notifications"
+  },
+  "post_status": {
+    "new_status": "Post new status",
+    "account_not_locked_warning": "Your account is not {0}. Anyone can follow you to view your follower-only posts.",
+    "account_not_locked_warning_link": "locked",
+    "attachments_sensitive": "Mark attachments as sensitive",
+    "content_type": {
+      "plain_text": "Plain text"
+    },
+    "content_warning": "Subject (optional)",
+    "default": "Just landed in L.A.",
+    "direct_warning": "This post will only be visible to all the mentioned users.",
+    "posting": "Posting",
+    "scope": {
+      "direct": "Direct - Post to mentioned users only",
+      "private": "Followers-only - Post to followers only",
+      "public": "Public - Post to public timelines",
+      "unlisted": "Unlisted - Do not post to public timelines"
+    }
+  },
+  "registration": {
+    "bio": "Bio",
+    "email": "Email",
+    "fullname": "Display name",
+    "password_confirm": "Password confirmation",
+    "registration": "Registration",
+    "token": "Invite token",
+    "captcha": "CAPTCHA",
+    "new_captcha": "Click the image to get a new captcha",
+    "validations": {
+      "username_required": "cannot be left blank",
+      "fullname_required": "cannot be left blank",
+      "email_required": "cannot be left blank",
+      "password_required": "cannot be left blank",
+      "password_confirmation_required": "cannot be left blank",
+      "password_confirmation_match": "should be the same as password"
+    }
+  },
+  "settings": {
+    "attachmentRadius": "Attachments",
+    "attachments": "Attachments",
+    "autoload": "Enable automatic loading when scrolled to the bottom",
+    "avatar": "Avatar",
+    "avatarAltRadius": "Avatars (Notifications)",
+    "avatarRadius": "Avatars",
+    "background": "Background",
+    "bio": "Bio",
+    "btnRadius": "Buttons",
+    "cBlue": "Blue (Reply, follow)",
+    "cGreen": "Green (Retweet)",
+    "cOrange": "Orange (Favorite)",
+    "cRed": "Red (Cancel)",
+    "change_password": "Change Password",
+    "change_password_error": "There was an issue changing your password.",
+    "changed_password": "Password changed successfully!",
+    "collapse_subject": "Collapse posts with subjects",
+    "composing": "Composing",
+    "confirm_new_password": "Confirm new password",
+    "current_avatar": "Your current avatar",
+    "current_password": "Current password",
+    "current_profile_banner": "Your current profile banner",
+    "data_import_export_tab": "Data Import / Export",
+    "default_vis": "Default visibility scope",
+    "delete_account": "Delete Account",
+    "delete_account_description": "Permanently delete your account and all your messages.",
+    "delete_account_error": "There was an issue deleting your account. If this persists please contact your instance administrator.",
+    "delete_account_instructions": "Type your password in the input below to confirm account deletion.",
+    "export_theme": "Save preset",
+    "filtering": "Filtering",
+    "filtering_explanation": "All statuses containing these words will be muted, one per line",
+    "follow_export": "Follow export",
+    "follow_export_button": "Export your follows to a csv file",
+    "follow_export_processing": "Processing, you'll soon be asked to download your file",
+    "follow_import": "Follow import",
+    "follow_import_error": "Error importing followers",
+    "follows_imported": "Follows imported! Processing them will take a while.",
+    "foreground": "Foreground",
+    "general": "General",
+    "hide_attachments_in_convo": "Hide attachments in conversations",
+    "hide_attachments_in_tl": "Hide attachments in timeline",
+    "hide_isp": "Hide instance-specific panel",
+    "preload_images": "Preload images",
+    "use_one_click_nsfw": "Open NSFW attachments with just one click",
+    "hide_post_stats": "Hide post statistics (e.g. the number of favorites)",
+    "hide_user_stats": "Hide user statistics (e.g. the number of followers)",
+    "import_followers_from_a_csv_file": "Import follows from a csv file",
+    "import_theme": "Load preset",
+    "inputRadius": "Input fields",
+    "checkboxRadius": "Checkboxes",
+    "instance_default": "(default: {value})",
+    "instance_default_simple": "(default)",
+    "interface": "Interface",
+    "interfaceLanguage": "Interface language",
+    "invalid_theme_imported": "The selected file is not a supported Pleroma theme. No changes to your theme were made.",
+    "limited_availability": "Unavailable in your browser",
+    "links": "Links",
+    "lock_account_description": "Restrict your account to approved followers only",
+    "loop_video": "Loop videos",
+    "loop_video_silent_only": "Loop only videos without sound (i.e. Mastodon's \"gifs\")",
+    "play_videos_inline": "Play videos directly on timeline",
+    "use_contain_fit": "Don't crop the attachment in thumbnails",
+    "name": "Name",
+    "name_bio": "Name & Bio",
+    "new_password": "New password",
+    "notification_visibility": "Types of notifications to show",
+    "notification_visibility_follows": "Follows",
+    "notification_visibility_likes": "Likes",
+    "notification_visibility_mentions": "Mentions",
+    "notification_visibility_repeats": "Repeats",
+    "no_rich_text_description": "Strip rich text formatting from all posts",
+    "hide_followings_description": "Don't show who I'm following",
+    "hide_followers_description": "Don't show who's following me",
+    "nsfw_clickthrough": "Enable clickthrough NSFW attachment hiding",
+    "panelRadius": "Panels",
+    "pause_on_unfocused": "Pause streaming when tab is not focused",
+    "presets": "Presets",
+    "profile_background": "Profile Background",
+    "profile_banner": "Profile Banner",
+    "profile_tab": "Profile",
+    "radii_help": "Set up interface edge rounding (in pixels)",
+    "replies_in_timeline": "Replies in timeline",
+    "reply_link_preview": "Enable reply-link preview on mouse hover",
+    "reply_visibility_all": "Show all replies",
+    "reply_visibility_following": "Only show replies directed at me or users I'm following",
+    "reply_visibility_self": "Only show replies directed at me",
+    "saving_err": "Error saving settings",
+    "saving_ok": "Settings saved",
+    "security_tab": "Security",
+    "scope_copy": "Copy scope when replying (DMs are always copied)",
+    "set_new_avatar": "Set new avatar",
+    "set_new_profile_background": "Set new profile background",
+    "set_new_profile_banner": "Set new profile banner",
+    "settings": "Settings",
+    "subject_input_always_show": "Always show subject field",
+    "subject_line_behavior": "Copy subject when replying",
+    "subject_line_email": "Like email: \"re: subject\"",
+    "subject_line_mastodon": "Like mastodon: copy as is",
+    "subject_line_noop": "Do not copy",
+    "stop_gifs": "Play-on-hover GIFs",
+    "streaming": "Enable automatic streaming of new posts when scrolled to the top",
+    "text": "Text",
+    "theme": "Theme",
+    "theme_help": "Use hex color codes (#rrggbb) to customize your color theme.",
+    "theme_help_v2_1": "You can also override certain component's colors and opacity by toggling the checkbox, use \"Clear all\" button to clear all overrides.",
+    "theme_help_v2_2": "Icons underneath some entries are background/text contrast indicators, hover over for detailed info. Please keep in mind that when using transparency contrast indicators show the worst possible case.",
+    "tooltipRadius": "Tooltips/alerts",
+    "user_settings": "User Settings",
+    "values": {
+      "false": "no",
+      "true": "yes"
+    },
+    "notifications": "Notifications",
+    "enable_web_push_notifications": "Enable web push notifications",
+    "style": {
+      "switcher": {
+        "keep_color": "Keep colors",
+        "keep_shadows": "Keep shadows",
+        "keep_opacity": "Keep opacity",
+        "keep_roundness": "Keep roundness",
+        "keep_fonts": "Keep fonts",
+        "save_load_hint": "\"Keep\" options preserve currently set options when selecting or loading themes, it also stores said options when exporting a theme. When all checkboxes unset, exporting theme will save everything.",
+        "reset": "Reset",
+        "clear_all": "Clear all",
+        "clear_opacity": "Clear opacity"
+      },
+      "common": {
+        "color": "Color",
+        "opacity": "Opacity",
+        "contrast": {
+          "hint": "Contrast ratio is {ratio}, it {level} {context}",
+          "level": {
+            "aa": "meets Level AA guideline (minimal)",
+            "aaa": "meets Level AAA guideline (recommended)",
+            "bad": "doesn't meet any accessibility guidelines"
+          },
+          "context": {
+            "18pt": "for large (18pt+) text",
+            "text": "for text"
+          }
+        }
+      },
+      "common_colors": {
+        "_tab_label": "Common",
+        "main": "Common colors",
+        "foreground_hint": "See \"Advanced\" tab for more detailed control",
+        "rgbo": "Icons, accents, badges"
+      },
+      "advanced_colors": {
+        "_tab_label": "Advanced",
+        "alert": "Alert background",
+        "alert_error": "Error",
+        "badge": "Badge background",
+        "badge_notification": "Notification",
+        "panel_header": "Panel header",
+        "top_bar": "Top bar",
+        "borders": "Borders",
+        "buttons": "Buttons",
+        "inputs": "Input fields",
+        "faint_text": "Faded text"
+      },
+      "radii": {
+        "_tab_label": "Roundness"
+      },
+      "shadows": {
+        "_tab_label": "Shadow and lighting",
+        "component": "Component",
+        "override": "Override",
+        "shadow_id": "Shadow #{value}",
+        "blur": "Blur",
+        "spread": "Spread",
+        "inset": "Inset",
+        "hint": "For shadows you can also use --variable as a color value to use CSS3 variables. Please note that setting opacity won't work in this case.",
+        "filter_hint": {
+          "always_drop_shadow": "Warning, this shadow always uses {0} when browser supports it.",
+          "drop_shadow_syntax": "{0} does not support {1} parameter and {2} keyword.",
+          "avatar_inset": "Please note that combining both inset and non-inset shadows on avatars might give unexpected results with transparent avatars.",
+          "spread_zero": "Shadows with spread > 0 will appear as if it was set to zero",
+          "inset_classic": "Inset shadows will be using {0}"
+        },
+        "components": {
+          "panel": "Panel",
+          "panelHeader": "Panel header",
+          "topBar": "Top bar",
+          "avatar": "User avatar (in profile view)",
+          "avatarStatus": "User avatar (in post display)",
+          "popup": "Popups and tooltips",
+          "button": "Button",
+          "buttonHover": "Button (hover)",
+          "buttonPressed": "Button (pressed)",
+          "buttonPressedHover": "Button (pressed+hover)",
+          "input": "Input field"
+        }
+      },
+      "fonts": {
+        "_tab_label": "Fonts",
+        "help": "Select font to use for elements of UI. For \"custom\" you have to enter exact font name as it appears in system.",
+        "components": {
+          "interface": "Interface",
+          "input": "Input fields",
+          "post": "Post text",
+          "postCode": "Monospaced text in a post (rich text)"
+        },
+        "family": "Font name",
+        "size": "Size (in px)",
+        "weight": "Weight (boldness)",
+        "custom": "Custom"
+      },
+      "preview": {
+        "header": "Preview",
+        "content": "Content",
+        "error": "Example error",
+        "button": "Button",
+        "text": "A bunch of more {0} and {1}",
+        "mono": "content",
+        "input": "Just landed in L.A.",
+        "faint_link": "helpful manual",
+        "fine_print": "Read our {0} to learn nothing useful!",
+        "header_faint": "This is fine",
+        "checkbox": "I have skimmed over terms and conditions",
+        "link": "a nice lil' link"
+      }
+    }
+  },
+  "timeline": {
+    "collapse": "Collapse",
+    "conversation": "Conversation",
+    "error_fetching": "Error fetching updates",
+    "load_older": "Load older statuses",
+    "no_retweet_hint": "Post is marked as followers-only or direct and cannot be repeated",
+    "repeated": "repeated",
+    "show_new": "Show new",
+    "up_to_date": "Up-to-date",
+    "no_more_statuses": "No more statuses"
+  },
+  "user_card": {
+    "approve": "Approve",
+    "block": "Block",
+    "blocked": "Blocked!",
+    "deny": "Deny",
+    "favorites": "Favorites",
+    "follow": "Follow",
+    "follow_sent": "Request sent!",
+    "follow_progress": "Requesting…",
+    "follow_again": "Send request again?",
+    "follow_unfollow": "Stop following",
+    "followees": "Following",
+    "followers": "Followers",
+    "following": "Following!",
+    "follows_you": "Follows you!",
+    "its_you": "It's you!",
+    "media": "Media",
+    "mute": "Mute",
+    "muted": "Muted",
+    "per_day": "per day",
+    "remote_follow": "Remote follow",
+    "statuses": "Statuses"
+  },
+  "user_profile": {
+    "timeline_title": "User Timeline"
+  },
+  "who_to_follow": {
+    "more": "More",
+    "who_to_follow": "Who to follow"
+  },
+  "tool_tip": {
+    "media_upload": "Upload Media",
+    "repeat": "Repeat",
+    "reply": "Reply",
+    "favorite": "Favorite",
+    "user_settings": "User Settings"
+  },
+  "upload":{
+    "error": {
+    "base": "Upload failed.",
+    "file_too_big": "File too big [{filesize}{filesizeunit} / {allowedsize}{allowedsizeunit}]",
+    "default": "Try again later"
+    },
+    "file_size_units": {
+      "B": "B",
+      "KiB": "KiB",
+      "MiB": "MiB",
+      "GiB": "GiB",
+      "TiB": "TiB"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+$main-color: #f58d2c;
+$main-background: white;
+$darkened-background: whitesmoke;
+
+$fallback--bg: #121a24;
+$fallback--fg: #182230;
+$fallback--faint: rgba(185, 185, 186, .5);
+$fallback--text: #b9b9ba;
+$fallback--link: #d8a070;
+$fallback--icon: #666;
+$fallback--lightBg: rgb(21, 30, 42);
+$fallback--lightText: #b9b9ba;
+$fallback--border: #222;
+$fallback--cRed: #ff0000;
+$fallback--cBlue: #0095ff;
+$fallback--cGreen: #0fa00f;
+$fallback--cOrange: orange;
+
+$fallback--alertError: rgba(211,16,20,.5);
+
+$fallback--panelRadius: 10px;
+$fallback--checkboxRadius: 2px;
+$fallback--btnRadius: 4px;
+$fallback--inputRadius: 4px;
+$fallback--tooltipRadius: 5px;
+$fallback--avatarRadius: 4px;
+$fallback--avatarAltRadius: 10px;
+$fallback--attachmentRadius: 10px;
